@@ -50,6 +50,7 @@ public class JewelThief1202 {
             int C = Integer.parseInt(br.readLine());
             bag[i] = C;
         }
+
         /**
          * 가방과 보석을 오름차순으로 정렬하는 것은 그리디 알고리즘의 핵심이다.
          *  가방을 오름차순으로 정렬하는 이유:
