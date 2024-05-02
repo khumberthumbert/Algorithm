@@ -35,6 +35,10 @@ public class RouterInstallation2110 {
          *
          * 이진 탐색의 상한 탐색(upper bound)에서는 'hi'가 검사할 값보다 1만큼 큰 값을 포함하도록 설정되므로, 이진 탐색이 끝났을 때'hi'가 실제로 가능한 최대 거리보다
          * 1 더 큰값을 가리키게 되어, 최종적으로 'lo-1'이 실제 최대거리를 나타내게 된다.
+         *
+         * 예제 [1, 2, 4, 8, 9]
+         * house[N -1] - house[0] = 8
+         * 여기에 1을 더해 hi를 9로 설정하면, 이진 탐색 과정에서 8이 최대 거리로도 고려될 수 있다.
          */
         int hi = house[N -1] - house[0] + 1; //최소 거리가 가질 수 있는 최대값
 
@@ -57,7 +61,7 @@ public class RouterInstallation2110 {
         /*
         Upper Bound는 탐색 값을 초과하는 첫 번째 값을 가리키므로, 1을 빼준 값이 조건식을 만족하는 최대값이 된다.
          */
-        System.out.println(lo -1);
+        System.out.println(lo - 1);
     }
 
     //distance에 대해 설치 가능한 공유기 개수를 찾는 메소드
