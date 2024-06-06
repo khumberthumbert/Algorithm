@@ -18,6 +18,11 @@ public class JewelThief1202 {
         }
         //보석 클래스 정렬 관련
 
+        /**
+         *
+         *
+         *
+         */
         @Override
         public int compareTo(jewel o) {
             if(this.weight == o.weight)
