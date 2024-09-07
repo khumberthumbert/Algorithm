@@ -29,7 +29,6 @@ public class Main1051 {
                 // 현재 위치에서 만들 수 있는 최대 크기의 정사각형을 확인
                 for (int k = 1; (i + k) < N && (j + k) < M; k++) {
 
-
                     // 네 꼭짓점이 같은 숫자인지 확인
                     if (arr[i][j] == arr[i + k][j] && arr[i][j] == arr[i][j + k] && arr[i][j] == arr[i + k][j + k]) {
 
