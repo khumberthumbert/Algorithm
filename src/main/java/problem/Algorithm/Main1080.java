@@ -1,4 +1,4 @@
-package problem.Algorithm.greedy;
+package problem.Algorithm;
 import java.util.Scanner;
 
 public class Main1080 {
