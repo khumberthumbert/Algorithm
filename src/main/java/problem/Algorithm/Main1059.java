@@ -43,7 +43,6 @@ public class Main1059 {
         //n - start - 1 : n보다 작은 값들 중에서 구간을 형성할 수 있는 경우의 수.
         //end - n - 1 : n보다 큰 값들 중에서 구간을 형성할 수 있는 경우의 수.
         //(n - start - 1) * (end - n - 1): start와 end 사이에서 서로 다른 구간을 형성할 수 있는 경우의 수.
-
         int ans = n-start-1 + end-n-1 + (n-start-1)*(end-n-1);
 
         System.out.println(ans);
