@@ -44,7 +44,7 @@ public class Main18429 {
 
         for (int i = 0; i < N; i++) {
             if (!visited[i]) { // 방문하지 않은 키트를 선택
-                int nextWeight = currentWeight + A[i] - K; // 다음날의 중량 계싼
+                int nextWeight = currentWeight + A[i] - K; // 다음날의 중량 계산
                 if (nextWeight >= 500) { //중량이 500 이상인 경우에만 진행
                     visited[i] = true; //현재 키트를 선택
                     permute(count + 1, nextWeight);//다음 키트를 재귀 호출
