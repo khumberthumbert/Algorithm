@@ -3,7 +3,7 @@ using System.ComponentModel.Design;
 
 namespace StudyC_
 {
-    class Program
+    class Main1189
     {
         static int R, C, K; // R : 행 , C : 열 , K : 목표 거리
         static char[,] map; //지도 정보를 저장하는 2차원 배열 char 타입.
