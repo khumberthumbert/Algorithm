@@ -17,6 +17,7 @@ public class Main7576 {
 
     static Queue<tomato> queue = new LinkedList<tomato>();
 
+    //현재 토마토의 위치와 경과일수를 저장하는데 사용
     static class tomato {
         int x;
         int y;
